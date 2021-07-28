@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="css/style.css" />
+		<script src="javascript/script.js"></script>
+	</head>
+	<body>
+		<header>
+			<div class="top" id="home">
+				<div><h1 class="logo-text">kalget</h1></div>
+				<div class="bar" onclick="display()">
+					<img src="images/bar.png" alt="" width="40px" />
+				</div>
+
+				<div class="nav1">
+					<div class="nav-link1">
+						<ul>
+							<li>
+								<a href="#home">Home</a>
+							</li>
+							<li>
+								<a href="#about">About</a>
+							</li>
+							<li>
+								<a href="#skills">Skills</a>
+							</li>
+							<li>
+								<a href="#contact">Contact</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main>
+			<div class="two">
+				<div class="pro">
+					<div class="profile">
+						<img src="images/profile.jpg" alt="" width="150px" />
+					</div>
+
+					<div class="name">
+						<h1>Kalkidan Getahun</h1>
+						<p>Computer Science And Engineering Student</p>
+					</div>
+					<div class="but">
+						<a href="#about"><button class="btn1">About Me</button></a>
+						<a href="#contact"> <button class="btn2">Contact</button></a>
+					</div>
+					<div class="social-icon">
+						<ul>
+							<li>
+								<a href="https://t.me/proget12" target="_blank"
+									><img src="images/tg.png" alt=""
+								/></a>
+							</li>
+							<li>
+								<a
+									href="https://www.facebook.com/kalkidan getachew"
+									target="_blank"
+									><img src="images/fb.png" alt=""
+								/></a>
+							</li>
+							<li>
+								<a
+									href="https://www.gmail.com/kalget12@gmail.com"
+									target="_blank"
+									><img src="images/gmail.png" alt=""
+								/></a>
+							</li>
+							<li>
+								<a
+									href="https://www.instagram.com/
+								kalkidan5897"
+									target="_blank"
+									><img src="images/instagram.png" alt=""
+								/></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="nav-bar" id="nav-bar">
+					<div class="nav-link">
+						<div class="bar1" onclick="display()">
+							<img src="images/b.png" alt="" width="40px" />
+						</div>
+						<ul>
+							<li>
+								<a href="#home"
+									><img src="images/home.png" class="nav-img" alt="" />Home</a
+								>
+							</li>
+							<li>
+								<a href="#about"
+									><img src="images/about.png" class="nav-img" alt="" />About</a
+								>
+							</li>
+							<li>
+								<a href="#skills"
+									><img
+										src="images/skills.png"
+										class="nav-img"
+										alt=""
+									/>Skills</a
+								>
+							</li>
+
+							<li>
+								<a href="#contact"
+									><img
+										src="images/contact.png"
+										class="nav-img"
+										alt=""
+									/>Contact</a
+								>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<section>
+				<div class="section1">
+					<div class="about" id="about">
+						<div>
+							<h1>About</h1>
+							<p>
+								Hello! I am Kalkidan Getahun. I am third year Computer Science
+								And Engineering student at Adama Science and Technology
+								University.
+							</p>
+						</div>
+					</div>
+					<div class="basic-info">
+						<h1 class="header">Basic Information</h1>
+						<h5>AGE</h5>
+						<p>22</p>
+						<h5>EMAIL</h5>
+						<p>kalget12@gmail.com</p>
+						<h5>PHONE</h5>
+						<p>+251961524406</p>
+						<h5>ADDRESS</h5>
+						<p>butajira, SNNPR, Ethiopia</p>
+						<h5>LANGUAGE</h5>
+						<p>AMharic, English</p>
+					</div>
+				</div>
+
+				<div class="section2">
+					<div class="pro-skill" id="skills">
+						<h1>Professional Skills</h1>
+					</div>
+					<div class="skill">
+						<ul>
+							<li class="html">HTML</li>
+							<li class="css">CSS</li>
+							<li class="javascript">JAVASCRIPT</li>
+						</ul>
+						<ul>
+							<li class="php">PHP</li>
+							<li class="mysql">MYSQL</li>
+							<li class="photoshope">PHOTOSHOP</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="contact" id="contact">
+					<div class="form">
+						<h1>Contact Me</h1>
+
+						<form action="" method="POST" class="form-group" name="form">
+							<input
+								type="text"
+								name="name"
+								placeholder="Name"
+								class="inpt"
+								required
+								id=""
+							/>
+							<input
+								type="email"
+								name="email"
+								placeholder="Email"
+								class="inpt"
+								required
+								id="email"
+							/>
+							<input
+								type="text"
+								name="subject"
+								placeholder="Subject"
+								class="inpt"
+								required
+								id="Subject"
+							/>
+
+							<input
+								type="text"
+								name="message"
+								placeholder="Your Message"
+								class="inpt"
+								required
+								id="message"
+							/><br />
+							<input
+								type="submit"
+								value="Send"
+								class="sub-btn"
+								class="inpt"
+								onclick="validateForm()"
+								target="_blank"
+							/><br />
+						</form>
+					</div>
+
+					<div class="adress">
+						<h5>ADDRESS</h5>
+						<p>butajira, SNNPR, Ethiopia</p>
+						<h5>PHONE</h5>
+						<p>+251961524406</p>
+						<h5>EMAIL</h5>
+						<p>kalget12@gmail.com</p>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<div class="footer">
+				<h3>Kalkidan Getahun</h3>
+				<p>&copy; Portfolio, All rights reserved 2021</p>
+			</div>
+		</footer>
+	</body>
+</html>
