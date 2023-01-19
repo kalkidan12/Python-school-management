@@ -36,5 +36,7 @@ all the necessary functionality for organizing the student information inside a 
 
 
 # Default System Access Information:
+Run the index.py file to launch the program.
+
 Username: admin
 Password: admin
