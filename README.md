@@ -23,11 +23,11 @@ all the necessary functionality for organizing the student information inside a 
        . This project automatically backup your database as a SQL file.
 
 # Fee Menu
-   # Managing Information
+    # Managing Information
       . In this menu, the user can manage the student payment information by entering the Receipt no, Student name, Admission Number, Date, and Branch
       . Can update information
       . You can update the existing student balances so that students can pay the remaining balance.
-   # Safely Backup
+    # Safely Backup
       . This project automatically backup your database as a SQL file.
       . Generated Receipt
       . The project can generate a readable receipt after the student pays a balance.
