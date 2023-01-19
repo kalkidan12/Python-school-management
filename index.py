@@ -17,32 +17,32 @@ class Window_1:
         self.master = master
         self.master.title("School Management System")
         self.master.geometry('1350x750')
-        self.master.config(bg="orange")
-        self.Frame = Frame(self.master, bg="orange")
+        self.master.config(bg="lightgreen")
+        self.Frame = Frame(self.master, bg="lightgreen")
         self.Frame.pack()
 
 
         self.Username = StringVar()                             
         self.Password = StringVar()
 
-        self.Lbl_Title = Label(self.Frame, text = 'Login Menu', font = ('arial',55,'bold'), bg = 'orange', fg = 'Black')
+        self.Lbl_Title = Label(self.Frame, text = 'Login Menu', font = ('arial',55,'bold'), bg = 'lightgreen', fg = 'Black')
         self.Lbl_Title.grid(row = 0, column = 0, columnspan =3, pady = 40)
         
-        self.Login_Frame_1 = LabelFrame(self.Frame, width = 1350, height = 600, relief = 'ridge', bg = 'orange', bd = 15,
+        self.Login_Frame_1 = LabelFrame(self.Frame, width = 1350, height = 600, relief = 'ridge', bg = 'lightgreen', bd = 15,
                                         font = ('arial',20,'bold'))
         self.Login_Frame_1.grid(row = 1, column =0)
-        self.Login_Frame_2 = LabelFrame(self.Frame, width = 1000, height = 600, relief = 'ridge',bg = 'orange', bd = 15,
+        self.Login_Frame_2 = LabelFrame(self.Frame, width = 1000, height = 600, relief = 'ridge',bg = 'lightgreen', bd = 15,
                                         font = ('arial',20,'bold'))
         self.Login_Frame_2.grid(row = 2, column = 0)
 
 
         #===================================================LABEL and ENTRIES=======================================================================
-        self.Label_Username = Label(self.Login_Frame_1, text = 'Username', font = ('arial',20,'bold'), bg = 'orange', bd = 20)
+        self.Label_Username = Label(self.Login_Frame_1, text = 'Username', font = ('arial',20,'bold'), bg = 'lightgreen', bd = 20)
         self.Label_Username.grid(row = 0, column = 0)
         self.text_Username = Entry(self.Login_Frame_1, font = ('arial',20,'bold'), textvariable = self.Username)
         self.text_Username.grid(row = 0, column = 1, padx = 50)                       
         
-        self.Label_Password = Label(self.Login_Frame_1, text = 'Password', font = ('arial',20,'bold'), bg = 'orange', bd = 20)
+        self.Label_Password = Label(self.Login_Frame_1, text = 'Password', font = ('arial',20,'bold'), bg = 'lightgreen', bd = 20)
         self.Label_Password.grid(row = 1, column = 0)
         self.text_Password = Entry(self.Login_Frame_1, font = ('arial',20,'bold'), show = '*', textvariable = self.Password)
         self.text_Password.grid(row = 1, column = 1) 
@@ -99,8 +99,8 @@ class Window_2:
         self.master = master
         self.master.title("School Managment System")
         self.master.geometry('1350x750')
-        self.master.config(bg="orange")
-        self.Frame = Frame(self.master, bg="orange")
+        self.master.config(bg="lightgreen")
+        self.Frame = Frame(self.master, bg="lightgreen")
         self.Frame.pack()
 
     
