@@ -16,7 +16,8 @@ all the necessary functionality for organizing the student information inside a 
 # School Management System Project in Python Features:
 # Student Menu
     # Managing Information
-       . In this menu, the user can manage the student information by entering the Student Name, Father Name, Mother Name, Address, etc.
+       . In this menu, the user can manage the student information by entering the Student Name, Father Name, 
+         Mother Name, Address, etc.
        . Can update information
        . You are allowed to update the current student information.
     # Safely Backup
@@ -24,7 +25,8 @@ all the necessary functionality for organizing the student information inside a 
 
 # Fee Menu
     # Managing Information
-      . In this menu, the user can manage the student payment information by entering the Receipt no, Student name, Admission Number, Date, and Branch
+      . In this menu, the user can manage the student payment information by entering the Receipt no, Student name, 
+        Admission Number, Date, and Branch
       . Can update information
       . You can update the existing student balances so that students can pay the remaining balance.
     # Safely Backup
